@@ -1,0 +1,23 @@
+REQUEST for channel webhook
+
+POST /calendar/v3/calendars/nosquish.com_qnc0aue18807gi2j7gn7m5hdhg%40group.calendar.google.com/events/watch HTTP/1.1
+Host: www.googleapis.com
+Authorization: Bearer ya29.c.KqMB7wc7piLG2Fnn7z69dCDb4HtnRRQHCW2dw1asxfTphiFk7dgIGD-Ai8wTEi0d4cO-zrVzB-Ili6V-Po1C-F2qUaEA5JwsEtNB8UFll5-PhOoAgcsnENw67Moeuc9DHyFEXv56sLV375AbQGkw-stPvNOWhGO6oEmQHFcIyJf4zVx7sNy7GIVryUF5__24IkFP-_bUb2WfPh_ZUEGCADHra7c0Sw
+Content-Type: application/vnd.api+json
+Content-Length: 173
+
+{
+  "id": "9753d77c-db97-4038-ac8c-5081ec8bcd5e",
+  "type": "web_hook",
+  "address": "https://avvmlahm0i.execute-api.us-west-2.amazonaws.com/dbl-goog-cal-webhook-listener"
+}
+
+
+RESPONSE received
+{
+ "kind": "api#channel",
+ "id": "9753d77c-db97-4038-ac8c-5081ec8bcd5e",
+ "resourceId": "tXYwp-T_Bum3zE_5gQJJGUaf_00",
+ "resourceUri": "https://www.googleapis.com/calendar/v3/calendars/nosquish.com_qnc0aue18807gi2j7gn7m5hdhg%40group.calendar.google.com/events?alt=json",
+ "expiration": "1612757580000"
+}
