@@ -2,3 +2,4 @@ node_modules
 dist
 package
 dbl-update-calendar-json.zip
+.DS_STORE
